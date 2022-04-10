@@ -1,0 +1,9 @@
+[run]
+branch = True
+source = src/
+omit =
+     src/*/__init__.py
+     src/*/__main__.py
+
+[report]
+fail_under = 80
