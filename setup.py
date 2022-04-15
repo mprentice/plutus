@@ -5,6 +5,8 @@ from glob import glob
 
 from setuptools import find_packages, setup  # type: ignore
 
+__version__ = "0.2.0"
+
 
 def read(*names, **kwargs) -> str:
     """Open and return text of file relative to this file's directory."""
@@ -40,7 +42,7 @@ DEV_REQUIRES = TEST_REQUIRES + ["wheel", "importmagic", "epc", "jedi", "isort"]
 
 setup(
     name="plutus",
-    version="0.1.0",
+    version=__version__,
     license="MIT License",
     description=(
         "Swiss army knife toolkit to import financial statements to ledger-cli."
