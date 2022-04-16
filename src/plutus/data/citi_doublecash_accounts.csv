@@ -1,0 +1,164 @@
+pattern,account
+^uber eats,Expenses:Dining
+^mbta,Expenses:Transportation
+^lahey - my chart,Expenses:Medical
+^.*dental,Expenses:Dental
+^wegmans,Expenses:Groceries
+^steve and kates,Expenses:Kids
+^cafepress,Expenses:Clothes
+^jcpenney.com,Expenses:Clothes
+^macys,Expenses:Clothes
+^lane bryant,Expenses:Clothes
+^teespring.com,Expenses:Clothes
+^dresslily.com,Expenses:Clothes
+^marshalls,Expenses:Household
+^kohl's,Expenses:Household
+^new york times,Expenses:Newspapers
+^nytimes,Expenses:Newspapers
+^.*slate plus,Expenses:Newspapers
+^usps,Expenses:Postal
+^grubhub,Expenses:Dining
+^.*public schools,Expenses:Education
+^northeastern univ,Expenses:Education
+^chewy.com,Expenses:Pets
+^.*pediatrics,Expenses:Medical
+^hallmark health,Expenses:Medical
+^walgreens,Expenses:Household
+^etsy,Expenses:Household
+^geico \\*auto,Expenses:Insurance:Auto
+^1 800 petmeds,Expenses:Pets
+^rover.com pet care,Expenses:Pets
+^.*animal hospital,Expenses:Pets
+^petco,Expenses:Pets
+^rareform,Expenses:Household
+^.*podiatry,Expenses:Medical
+^amazon.com,Expenses:Amazon
+^exxonmobil,Expenses:Auto
+^gibbs oil,Expenses:Auto
+^brueggers,Expenses:Dining
+^wendy's,Expenses:Dining
+^philadelphia steak,Expenses:Dining
+^.*food court,Expenses:Dining
+^starbucks,Expenses:Dining
+^slice,Expenses:Dining
+^jetblue,Expenses:Travel
+^amzn mktp,Expenses:Amazon
+^barnes&noble,Expenses:Books
+^netflix.com,Expenses:Entertainment
+^disneyplus,Expenses:Entertainment
+^.*hulu,Expenses:Entertainment
+^savagelovecast,Expenses:Entertainment
+^apple.com,Expenses:Computer
+^newegg,Expenses:Computer
+^ipvanish,Expenses:Computer
+^target,Expenses:Household
+^bed bath & beyond,Expenses:Household
+^walmart,Expenses:Household
+^stop & shop,Expenses:Groceries
+^market basket,Expenses:Groceries
+^healthywage,Expenses:Health
+^old navy,Expenses:Clothes
+^staples,Expenses:Office
+^dsw,Expenses:Clothes
+^.*zappos,Expenses:Clothes
+^gog.com,Expenses:Entertainment
+^humblebundle,Expenses:Entertainment
+^steamgames,Expenses:Entertainment
+^shaws,Expenses:Groceries
+^wholefds,Expenses:Groceries
+^trader joe's,Expenses:Groceries
+^the home depot,Expenses:Household
+^.*plumbing,Expenses:Plumbing
+^lyft,Expenses:Transportation
+^party city,Expenses:Household
+^dick's sporting goods,Expenses:Household
+^.*pizza,Expenses:Dining
+^.*donuts,Expenses:Dining
+^.*texas bbq,Expenses:Dining
+^texas roadhouse,Expenses:Dining
+^vzwrlss,Expenses:Utilities:Phone
+^instacart,Expenses:Groceries
+^wgbh,Expenses:Donations
+^actblue,Expenses:Donations
+^regional home care,Expenses:Medical
+^.*urgent care,Expenses:Medical
+^.*hospital,Expenses:Medical
+^enterprise toll,Expenses:Travel
+^enterprise rent-a-car,Expenses:Travel
+^five guys,Expenses:Dining
+^mcdonald'?s,Expenses:Dining
+^kellys roast beef,Expenses:Dining
+^wingstop,Expenses:Dining
+^coldstone,Expenses:Dining
+^.*costco,Expenses:Groceries
+^qdoba,Expenses:Dining
+^dunkin,Expenses:Dining
+^.*pizzeria,Expenses:Dining
+^domino's,Expenses:Dining
+^advance auto parts,Expenses:Auto
+^total wine,Expenses:Dining
+^kappys,Expenses:Dining
+^.*ymca,Expenses:Health
+^.*ben & jerry's,Expenses:Dining
+^.*caffe nero,Expenses:Dining
+^.*shake shac,Expenses:Dining
+^.*parking,Expenses:Auto
+^.*cinema,Expenses:Entertainment
+^.*boston globe,Expenses:Newspapers
+^.*urology,Expenses:Medical
+^.*kidstock,Expenses:Kids
+^.*bakery,Expenses:Groceries
+^.*haircare,Expenses:Hygiene
+^.*humblebundle,Expenses:Entertainment
+^.*petsmart,Expenses:Pets
+^.*restaurant,Expenses:Dining
+^.*liquor,Expenses:Dining
+^.*footwear,Expenses:Clothes
+^.*kidcasso,Expenses:Kids
+^.*hbomax,Expenses:Entertainment
+^.*foreign transaction fee,Expenses:Fees:Foreign Exchange
+^.*lanebryant,Expenses:Clothes
+^www.vevor.com,Expenses:Household
+^burger king,Expenses:Dining
+^santa fe burrito grill,Expenses:Dining
+^grabull,Expenses:Dining
+^autozone,Expenses:Auto
+^steam purchase,Expenses:Entertainment
+^.*ethhticoltd,Expenses:Household
+^chick-fil-a,Expenses:Dining
+^crossovercodeweaver,Expenses:Computer
+^thechildrensplace.com,Expenses:Kids
+^doctors express,Expenses:Medical
+^gog.com,Expenses:Entertainment
+^cvs[ /]pharmacy,Expenses:Medical
+^.*godaddy,Expenses:Computer
+^.*roast beef,Expenses:Dining
+^disney plus,Expenses:Entertainment
+^wikimedia,Expenses:Donations
+^.*ice cream,Expenses:Dining
+^.*margaritas,Expenses:Dining
+^.*ihealthlabs,Expenses:Medical
+^.*trash,Expenses:Waste Disposal
+"^carters, Inc",Expenses:Kids
+^.*roblox,Expenses:Entertainment
+^girl scout cookies,Expenses:Dining
+^.*ghbass,Expenses:Clothes
+^.*five ?below,Expenses:Household
+^coloroops,Expenses:Household
+^spothero,Expenses:Auto
+^dollar ?tree,Expenses:Household
+^.*prime video,Expenses:Entertainment
+^taco bell,Expenses:Dining
+^king petroleum,Expenses:Auto
+^.*foot care,Expenses:Medical
+^babymetal,Expenses:Clothes
+^.*easy pie,Expenses:Dining
+^.*texas bbq,Expenses:Dining
+^e-z\*pass,Expenses:Auto
+^.*fajitas & ritas,Expenses:Dining
+^.* zoo,Expenses:Entertainment
+^lowes,Expenses:Household
+^itch.io,Expenses:Entertainment
+^.*storage,Expenses:Storage
+"^ulta(.com| \#[0-9])",Expenses:Personal
+^logmein.com,Expenses:Computer

@@ -1,5 +1,17 @@
+[BASIC]
+min-public-methods = 0
+
 [MASTER]
 disable = C0330, C0326
+ignore-paths = ^test/.*$,
+             ^.*/test/.*$
 
 [FORMAT]
 max-line-length = 88
+
+[TYPECHECK]
+ignored-modules=iso4217
+
+[MESSAGES CONTROL]
+disable = useless-suppression, not-an-iterable, no-self-use, invalid-name,
+        no-member, unsubscriptable-object

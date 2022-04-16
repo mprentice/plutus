@@ -17,9 +17,7 @@ requirements-dev.txt: requirements-test.txt
 .venv/bin/activate: requirements-dev.txt
 	test -d .venv || python -m venv .venv
 	.venv/bin/pip install -r requirements-dev.txt
-
-.coverage: $(SOURCES) $(TESTS)
-	.venv/bin/pytest --cov=plutus test/
+	.venv/bin/pip install -e ".[dev]"
 
 .PHONY: help
 help: ## Show Makefile targets and descriptions
@@ -44,7 +42,8 @@ lint: ## Run code linting
 	.venv/bin/mypy src/
 
 .PHONY: test
-test: lint .coverage ## Run tests and code linting
+test: ## Run tests
+	.venv/bin/pytest --cov=plutus test/
 
 .PHONY: clean
 clean: ## Cleanup build and dev artifacts
