@@ -220,6 +220,10 @@ class Transaction:
         """Add entry to transaction."""
         self.entries.add(entry)
 
+    def remove_entry(self, entry: Entry):
+        """Remove entry from transaction."""
+        self.entries.remove(entry)
+
     def __str__(self) -> str:
         pieces = []
         if self.effective_date:
