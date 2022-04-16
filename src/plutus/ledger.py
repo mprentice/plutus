@@ -175,7 +175,7 @@ class Transaction:
     code: Optional[str] = None
 
     @description.validator
-    def check_description(self, _attribute, value):
+    def _check_description(self, _attribute, value):
         """Ensure that description is only one line."""
         lines = len(value.split("\n"))
         if lines > 1:
