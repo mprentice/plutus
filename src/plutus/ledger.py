@@ -61,6 +61,12 @@ class Account:
 
     name: str
 
+    def __init__(self, name: Union[str, "Account"]):
+        if isinstance(name, Account):
+            self.__attrs_init__(name.name)  # type: ignore
+        else:
+            self.__attrs_init__(name)  # type: ignore
+
     @property
     def category(self) -> AccountCategory:
         """Category of this account."""
@@ -120,7 +126,7 @@ class Entry:
         purchase_price (Optional[Money]): Purchase price
     """
 
-    account: Account
+    account: Account = field(converter=Account)
     status: Optional[TransactionStatus] = None
     amount: Optional[Union[Money, CommodityAmount]] = None
     lot_price: Optional[Money] = None

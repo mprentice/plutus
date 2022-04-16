@@ -60,11 +60,6 @@ class AccountFactory:
         return Account(config(f"{self.prefix}{self.key}", default=self.default))
 
 
-def _coerce_account(s: Union[str, Account]) -> Account:
-    """Coerce s to an Account if it isn't already."""
-    return Account(s) if isinstance(s, str) else s
-
-
 @frozen
 class DoubleCashLedgerAccountConfig:
     """Default ledger accounts to use for Citi DoubleCash transactions.
@@ -78,20 +73,17 @@ class DoubleCashLedgerAccountConfig:
     """
 
     asset_account: Account = field(
-        factory=AccountFactory("ASSET_ACCOUNT", "Assets:Checking"),
-        converter=_coerce_account,
+        factory=AccountFactory("ASSET_ACCOUNT", "Assets:Checking"), converter=Account
     )
     liability_account: Account = field(
         factory=AccountFactory("LIABILITY_ACCOUNT", "Liabilities:CC:DoubleCash"),
-        converter=_coerce_account,
+        converter=Account,
     )
     points_account: Account = field(
-        factory=AccountFactory("POINTS_ACCOUNT", "Expenses:Points"),
-        converter=_coerce_account,
+        factory=AccountFactory("POINTS_ACCOUNT", "Expenses:Points"), converter=Account
     )
     unknown_expense_account: Account = field(
-        factory=AccountFactory("UNKNOWN_ACCOUNT", "Expenses:Unknown"),
-        converter=_coerce_account,
+        factory=AccountFactory("UNKNOWN_ACCOUNT", "Expenses:Unknown"), converter=Account
     )
 
 
