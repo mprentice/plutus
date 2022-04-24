@@ -126,7 +126,7 @@ class Entry:
         purchase_price (Optional[Money]): Purchase price
     """
 
-    account: Account = field(converter=Account)
+    account: Account
     status: Optional[TransactionStatus] = None
     amount: Optional[Union[Money, CommodityAmount]] = None
     lot_price: Optional[Money] = None
