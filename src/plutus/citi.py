@@ -24,9 +24,9 @@ from typing import (
     ClassVar,
     Dict,
     Generator,
+    MutableSequence,
     Optional,
     Sequence,
-    Set,
     TextIO,
     Tuple,
     Union,
@@ -261,11 +261,11 @@ class DoubleCashStatement:
         transactions (Set[DoubleCashTransaction]): set() by default
     """
 
-    transactions: Set[DoubleCashTransaction] = field(factory=set)
+    transactions: MutableSequence[DoubleCashTransaction] = field(factory=list)
 
     def add_transaction(self, transaction: DoubleCashTransaction):
         """Add transaction to the statement."""
-        self.transactions.add(transaction)
+        self.transactions.append(transaction)
 
     @classmethod
     def from_csv(
