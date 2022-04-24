@@ -33,8 +33,8 @@ pattern,account
 ^rareform,Expenses:Household
 ^.*podiatry,Expenses:Medical
 ^amazon.com,Expenses:Amazon
-^exxonmobil,Expenses:Auto
-^gibbs oil,Expenses:Auto
+^exxonmobil,Expenses:Auto:Fuel
+^gibbs oil,Expenses:Auto:Fuel
 ^brueggers,Expenses:Dining
 ^wendy's,Expenses:Dining
 ^philadelphia steak,Expenses:Dining
@@ -95,14 +95,14 @@ pattern,account
 ^dunkin,Expenses:Dining
 ^.*pizzeria,Expenses:Dining
 ^domino's,Expenses:Dining
-^advance auto parts,Expenses:Auto
+^advance auto parts,Expenses:Auto:Repair
 ^total wine,Expenses:Dining
 ^kappys,Expenses:Dining
 ^.*ymca,Expenses:Health
 ^.*ben & jerry's,Expenses:Dining
 ^.*caffe nero,Expenses:Dining
 ^.*shake shac,Expenses:Dining
-^.*parking,Expenses:Auto
+^.*parking,Expenses:Auto:Parking
 ^.*cinema,Expenses:Entertainment
 ^.*boston globe,Expenses:Newspapers
 ^.*urology,Expenses:Medical
@@ -122,7 +122,7 @@ pattern,account
 ^burger king,Expenses:Dining
 ^santa fe burrito grill,Expenses:Dining
 ^grabull,Expenses:Dining
-^autozone,Expenses:Auto
+^autozone,Expenses:Auto:Repair
 ^steam purchase,Expenses:Entertainment
 ^.*ethhticoltd,Expenses:Household
 ^chick-fil-a,Expenses:Dining
@@ -145,16 +145,16 @@ pattern,account
 ^.*ghbass,Expenses:Clothes
 ^.*five ?below,Expenses:Household
 ^coloroops,Expenses:Household
-^spothero,Expenses:Auto
+^spothero,Expenses:Auto:Parking
 ^dollar ?tree,Expenses:Household
 ^.*prime video,Expenses:Entertainment
 ^taco bell,Expenses:Dining
-^king petroleum,Expenses:Auto
+^king petroleum,Expenses:Auto:Fuel
 ^.*foot care,Expenses:Medical
 ^babymetal,Expenses:Clothes
 ^.*easy pie,Expenses:Dining
 ^.*texas bbq,Expenses:Dining
-^e-z\*pass,Expenses:Auto
+^e-z\*pass,Expenses:Auto:Tolls
 ^.*fajitas & ritas,Expenses:Dining
 ^.* zoo,Expenses:Entertainment
 ^lowes,Expenses:Household
@@ -162,3 +162,5 @@ pattern,account
 ^.*storage,Expenses:Storage
 "^ulta(.com| \#[0-9])",Expenses:Personal
 ^logmein.com,Expenses:Computer
+^wal-mart,Expenses:Household
+^amazon mp3,Expenses:Entertainment
